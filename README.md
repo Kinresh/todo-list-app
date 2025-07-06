@@ -1,54 +1,36 @@
 # Todo List App
 
-A modern, responsive todo list application with persistent storage and AI-powered task elaboration.
+A modern, responsive todo list application built with React and Tailwind CSS.
 
 ## Features
 
 - ✅ Add, edit, and delete tasks
-- 💾 Persistent storage (tasks saved in browser)
-- 🤖 AI-powered task elaboration
+- 💾 Persistent storage (localStorage)
 - 📱 Mobile-responsive design
-- 🎨 Modern glassmorphism UI
-- ⏰ Task creation timestamps
+- 🎨 Modern UI with Tailwind CSS
+- ⏰ Timestamp tracking
+- ✨ Smooth animations
 
-## How to Use
+## Demo
 
-### Online (GitHub Pages)
-Visit: `https://[your-username].github.io/todo-list-app`
+Visit the live demo: [Your GitHub Pages URL]
 
-### Local Development
-1. Clone the repository
-2. Open `index.html` in your browser
-3. Start adding tasks!
+## Usage
 
-## Features Guide
-
-- **Add Task**: Type in the input field and click "Add" or press Enter
-- **Complete Task**: Click the checkbox next to any task
-- **Elaborate Task**: Click the "Elaborate" button to generate AI descriptions
-- **Edit Description**: Click on any task description to edit it
-- **Delete Task**: Click the trash icon to remove a task
-- **Persistent Storage**: All tasks are saved automatically and persist between sessions
+1. Add tasks using the input field
+2. Click the checkbox to mark tasks as complete
+3. Click the description area to edit task details
+4. Use the trash icon to delete tasks
+5. Your tasks are automatically saved locally
 
 ## Technologies Used
 
 - React 18
 - Tailwind CSS
-- Lucide React (icons)
-- Claude API (for AI features)
-- LocalStorage (for persistence)
+- Lucide React Icons
+- Vanilla JavaScript
+- HTML5 Local Storage
 
-## Browser Compatibility
+## License
 
-Works on all modern browsers including:
-- Chrome/Edge
-- Firefox
-- Safari
-- Mobile browsers
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+MIT License
